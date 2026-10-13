@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9fafb;
+}
+
+h1 { color: #1A3A5C; }
+
+section {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+input, button {
+  padding: 8px;
+  margin: 4px 4px 4px 0;
+}
+
+button {
+  background-color: #2563EB;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th { background-color: #DBEAFE; }
+
+/* ------------ Mensagens de Feedback ------------ */
+
+.mensagem{
+  position:sticky;
+  top: 10px;
+  z-index: 10;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.mensagem.sucesso{
+  background-color: #dcfce7;
+  color: #166534;
+  border: 1px solid #86efac;
+}
+
+.mensagem.erro{
+  background-color: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fca5a5;
+}
+
+.oculta { display:none; }
+
+/* ------------ Botões ------------ */
+
+button:disabled{
+  background-color: #94a3b8;
+  cursor: not-allowed;
+}
+
+.btn-excluir{
+  background-color: #DC2626;
+}
+
+/* ------------ Tabela ------------ */
+
+.linha-informativa{
+  text-align: center;
+  color: #6b7280;
+  font-style: italic;
+}
